@@ -1,0 +1,66 @@
+* {
+    padding: 0;
+    margin: 0;
+    
+}
+
+
+
+
+body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    background-color: rgb(144, 223, 154);
+    Font-Family: 'PT Sans', Sans-Serif;
+    overflow: hidden;
+}
+
+
+figure{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 5rem;
+    background-color: white;
+    height: 20rem;
+    width: 30rem;
+    margin: 20%;
+    text-align: center;
+    
+}
+
+figure i{
+    cursor: pointer;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.figure-1,
+.figure-2,
+.figure-3,
+.figure-4,
+.figure-5 {
+    position: absolute;
+}
+
+
+figure.active {
+    z-index: 1;
+    opacity: 1;
+}
+
+figure.inactive {
+    z-index: -1;
+    opacity: 0;
+}
+
+
+
+
+.fa-heart {
+    color: red;
+   
+}
